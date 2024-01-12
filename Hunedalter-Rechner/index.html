@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hundealter-Rechner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alata&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+ <img src="https://app.hundezonen.ch/docs/perr.png" alt="Descripción de la imagen">
+      <h1>Hundealter-Rechner</h1>
+      <form>
+        <div class="form-control">
+          <label for="age">Wie alt ist dein Hund?</label>
+          <input type="text" id="age" name="age" pattern="[0-9]*" placeholder="Nur Zahlen">
+        </div>
+        <div class="form-control">
+          <label for="size">Größe:</label>
+          <select id="size" name="size">
+            <option value="small">Klein</option>
+            <option value="medium">Mittel</option>
+            <option value="large">Groß</option>
+          </select>
+        </div>
+        <button type="button" onclick="calculate()">Berechnen</button>
+        <p id="result"></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
