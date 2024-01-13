@@ -1,11 +1,11 @@
 function calculate() {
-  // Obtener los valores de la edad y tamaño del perro
+  // Get the values of the dog's age and size
   const age = document.getElementById("age").value;
   const size = document.getElementById("size").value;
 
-  // Verificar si la edad del perro es mayor que 0
+  // Check if the dog's age is greater than 0
   if (age > 0) {
-    // Calcular la edad del perro en años humanos
+    // Calculate the dog's age in human years
     let humanAge;
     if (size === "small") {
       humanAge = age * 5;
@@ -15,12 +15,12 @@ function calculate() {
       humanAge = age * 7;
     }
 
-    // Mostrar el resultado en la página
+    // Display the result on the page
     const result = document.getElementById("result");
-    result.textContent = `Das Alter des Hundes in Menschenjahren ist ${humanAge}`;
+    result.textContent = `The dog's age in human years is ${humanAge}`;
   } else {
-    // Mostrar un mensaje de error si la edad del perro es 0 o negativa
+    // Display an error message if the dog's age is 0 or negative
     const result = document.getElementById("result");
-    result.textContent = "La edad del perro debe ser mayor que 0";
+    result.textContent = "The dog's age must be greater than 0";
   }
 }
