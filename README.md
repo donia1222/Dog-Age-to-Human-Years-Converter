@@ -25,4 +25,4 @@ Application and Benefits
 This tool is useful for dog owners who want to better understand their pets' age in human terms. It helps provide a better perspective on the care and health needs of dogs as they age.
 
 
-![Project screenshot](https://app.hundezonen.ch/docs/IMG_0092.PNG)
+![Project screenshot](https://app.hundezonen.ch/docs/IMG_00921.PNG)
